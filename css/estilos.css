@@ -1,4 +1,34 @@
+.wrap{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.head{
+	height: 200px;
+}
+
 .logo{
 	width: 350px;
 	height: 200px;
 }
+
+a{
+	text-decoration: none;
+	color: #2495C9;
+}
+
+.logotipo{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.buttons{
+	float: right;
+	width: 50%;
+	height: 100%;
+	line-height: 250px;
+	text-align: center;
+	word-spacing: 100px;
+}
+
