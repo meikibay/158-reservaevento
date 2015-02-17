@@ -2,22 +2,32 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Bilheteira Online</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 		<link rel="stylesheet" type="text/css" href="	datedropper/css/datedropper.css">
+
 
 		<script src="datedropper/js/jquery.js"></script>
 		<script src="datedropper/js/datedropper.js"></script>
 	</head>
 	<body>
-	<img src="images/logo.png" id="logo">
+	<div class="wrap">	
+		<div class="head">
 
-	<input type="text" id="departure"/>
-	
+			<img src="images/logo.png" class="logo">
+			<a href="#">Home</a>
+			<a href="#">Eventos</a>
+			<a href="#">Agenda</a>
+
+		</div>	
+		<br>
+		<input type="text" id="departure"/>
+	</div>	
 	<script>
 	$( "#departure" ).dateDropper({
 	 color: "#BCEBDD", 
 	 format: "d-m-Y"
 	  });
 	</script>
-
+	</div>	
 	</body>
 </html>
