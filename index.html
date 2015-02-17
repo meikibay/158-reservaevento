@@ -17,7 +17,7 @@
 	<div class="wrap">	
 		<div class="head">
 			<div class="logotipo">
-			<img src="images/logo.png" class="logo">
+			<a href="#"><img src="images/logo.png" class="logo"></a>
 			</div>
 			<div class="buttons">
 			<a href="#">Home</a>
@@ -70,27 +70,24 @@
 	<div class="footer">
 		<div class="campos">
 			
-			<!--inserir campos a preencher -->
+			<!--input inicia aqui -->
 
 			<br>
 			<br>
 			<form id="vform" action="index.html" method="post">
 			<p>
 				Nome: <input type="text" placeholder="Insira o seu nome" id="name" >
-			</p>
-			<p>
+
 				Email: <input type="email" placeholder="Insira o seu Email" id="omeumail" name="omeuemail" value="" required>
-			</p>
-			<p>
+
 				Data: <input type="text" id="departure"/>
-			</p>
-			<p>
+
 				<input type="submit" value="OK"/>
 			</p>
 		</div>
 	</div>	
 
-	
+
 	<script>
 	$( "#departure" ).dateDropper({
 	 color: "#BCEBDD", 
