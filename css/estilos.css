@@ -48,6 +48,7 @@ a{
 .campos{
 	clear: both;
 	float: none;
+	word-spacing: 5px;
 }
 
 .footer{
