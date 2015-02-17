@@ -74,11 +74,12 @@
 
 			<br>
 			<br>
+			<form id="vform" action="index.html" method="post">
 			<p>
-				Nome: <input type="text" value="Insira o seu nome">
+				Nome: <input type="text" placeholder="Insira o seu nome" id="name" >
 			</p>
 			<p>
-				Email: <input type="text" value="Insira o seu Email">
+				Email: <input type="email" placeholder="Insira o seu Email" id="omeumail" name="omeuemail" value="" required>
 			</p>
 			<p>
 				Data: <input type="text" id="departure"/>
@@ -89,6 +90,7 @@
 		</div>
 	</div>	
 
+	
 	<script>
 	$( "#departure" ).dateDropper({
 	 color: "#BCEBDD", 
@@ -96,7 +98,12 @@
 	  });
 	</script>
 
+	
+
+
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/jquery.validate.js"></script>
 	</body>
 </html>
